@@ -20,6 +20,7 @@ myProfile = {
 	"pictureStatus": ""
 }
 lineSettings = cl.getSettings()
+clProfile = cl.profile()
 clMID = cl.profile.mid
 myProfile["displayName"] = clProfile.displayName
 myProfile["statusMessage"] = clProfile.statusMessage
