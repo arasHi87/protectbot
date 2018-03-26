@@ -1,9 +1,9 @@
 {
-    "autoAdd": false,
+    "autoAdd": true,
     "autoJoin": true,
-    "autoJoinTicket": false,
+    "autoJoinTicket": true,
     "autoLeave": false,
-    "autoRead": false,
+    "autoRead": true,
     "blacklist": {
         "u29f1984703c898872a256532531b82bf": true,
         "u2a4526951573a993d5295c7e066687ed": true,
@@ -26,11 +26,12 @@
     "contact": false,
     "dblack": false,
     "dblacklist": false,
-    "detectMention": false,
+    "detectMention": true,
     "inviteprotect": false,
     "keyCommand": "",
+    "kickerjoin": false,
     "kickjoin": false,
-    "kickmeber": false,
+    "kickmeber": true,
     "lang": "JP",
     "mimic": {
         "copy": false,
@@ -42,6 +43,7 @@
     "protect": true,
     "qrprotect": false,
     "reread": true,
+    "timeline": true,
     "userAgent": [
         "Mozilla/5.0 (X11; U; Linux i586; de; rv:5.0) Gecko/20100101 Firefox/5.0",
         "Mozilla/5.0 (X11; U; Linux amd64; rv:5.0) Gecko/20100101 Firefox/5.0 (Debian)",

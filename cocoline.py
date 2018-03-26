@@ -9,6 +9,7 @@ from gtts import gTTS
 from googletrans import Translator
 botStart = time.time()
 cl = LINE("LINE帳號","LINE密碼")
+cl.log("Auth Token : " + str(cl.authToken))
 oepoll = OEPoll(cl)
 readOpen = codecs.open("read.json","r","utf-8")
 settingsOpen = codecs.open("temp.json","r","utf-8")
@@ -20,13 +21,12 @@ myProfile = {
 	"pictureStatus": ""
 }
 lineSettings = cl.getSettings()
-clProfile = cl.profile()
+clProfile = cl.getProfile()
 clMID = cl.profile.mid
 myProfile["displayName"] = clProfile.displayName
 myProfile["statusMessage"] = clProfile.statusMessage
 myProfile["pictureStatus"] = clProfile.pictureStatus
 admin=['u28d781fa3ba9783fd5144390352b0c24',clMID]
-owner=['u28d781fa3ba9783fd5144390352b0c24']
 msg_dict = {}
 bl = [""]
 def cTime_to_datetime(unixtime):
@@ -67,7 +67,7 @@ def helpmessage():
     helpMessage = """
 ╔═══════════
 ╠♥ ✿ CoCoの指令表 ✿ ♥
-╠❤️李白の特製版❤️
+╠❤️淫蕩の特製版❤️
 ╠✪〘 查看指令表 〙✪════
 ╠➥ 「Help」查看全部指令
 ╠➥ 「HelpTag」查看標註指令
@@ -99,8 +99,6 @@ def helpmessage():
 ╠➥ 「Bio @」標註查看狀態消息
 ╠➥ 「Picture @」標註查看頭貼
 ╠➥ 「Cover @」標注查看封面
-╠➥ 「Copy @」標註複製配置文件
-╠➥ 「Restore」恢復配置文件
 ╠✪〘 群組 〙✪═══════
 ╠➥ 「Gowner」查看群組擁有者
 ╠➥ 「Gurl」丟出群組網址
@@ -149,15 +147,9 @@ def helpmessagetag():
 ╠➥ 「Name @」標註查看名稱
 ╠➥ 「Bio @」標註查看狀態消息
 ╠➥ 「Picture @」標註查看頭貼
-╠➥ 「VideoProfile @」標註查看動態頭貼
 ╠➥ 「Cover @」標注查看封面
-╠➥ 「Copy @」標註複製配置文件
-╠➥ 「MimicAdd @」標註增加模仿
-╠➥ 「MimicDel @」標註刪除模仿
 ║➥ 「Ban @」標註加入黑單
 ║➥ 「Unban @」標註解除黑單
-╠➥ 「Mkk @」標注踢出成員(單踢)
-╠➥ 「Tkk @」標注踢出成員(多踢)
 ╚═〘 Credits By: ©CoCo™  〙
 """
     return helpMessageTag
@@ -173,10 +165,6 @@ def helpmessagekick():
 ╠➥ 「Uk mid」使用系統識別碼踢出成員
 ╠➥ 「Kill ban」踢出黑單成員
 ╠➥ 「Zk」踢出名字0字成員
-╠➥ 「Nkk Name」使用名子踢出成員
-╠➥ 「Mkk @」標注踢出成員(單踢)
-╠➥ 「Tkk @」標注踢出成員(多踢)
-╠➥ 「Zkk」踢出名字0字成員
 ╚═〘 Credits By: ©CoCo™  〙
 """
     return helpMessageKick
@@ -414,10 +402,8 @@ def lineBot(op):
                         pass
                     else:
                         for target in targets:
-                            try:
-                                sendMessageWithMention(to,target)
-                            except:
-                                pass
+                            mc = sendMessageWithMention(to,target) + "\n"
+                        cl.sendMessage(to,mc)
                 elif text.lower() == 'zt':
                     gs = cl.getGroup(to)
                     targets = []
@@ -428,10 +414,7 @@ def lineBot(op):
                         pass
                     else:
                         for target in targets:
-                            try:
-                                sendMessageWithMention(to,target)
-                            except:
-                                pass
+                            sendMessageWithMention(to,target)
                 elif text.lower() == 'zm':
                     gs = cl.getGroup(to)
                     targets = []
@@ -443,7 +426,7 @@ def lineBot(op):
                     else:
                         mc = ""
                         for mi_d in targets:
-                            mc += "->" + target + "\n"
+                            mc += "->" + mi_d + "\n"
                         cl.sendMessage(to,mc)
                 elif "Mc " in msg.text:
                     mmid = msg.text.replace("Mc ","")
@@ -567,7 +550,7 @@ def lineBot(op):
                         cl.sendMessage(to, "以下是黑名單")
                         mc = ""
                         for mi_d in settings["blacklist"]:
-                            mc += "->" + cl.getContact(mi_d).mid + "\n"
+                            mc += "->" + mi_d + "\n"
                         cl.sendMessage(to, mc)
                 elif text.lower() == 'kill ban':
                     if msg.toType == 2:
@@ -629,7 +612,7 @@ def lineBot(op):
                         ret_ += "\n╠ 好友 : {}".format(str(len(contactlist)))
                         ret_ += "\n╠ 黑單 : {}".format(str(len(blockedlist)))
                         ret_ += "\n╠══[ 關於機器 ]"
-                        ret_ += "\n╠ 版本 : 李白特製版"
+                        ret_ += "\n╠ 版本 : 淫蕩特製版"
                         ret_ += "\n╠ 作者 : {}".format(creator.displayName)
                         ret_ += "\n╚══[ 未經許可禁止重製 ]"
                         cl.sendMessage(to, str(ret_))
@@ -679,15 +662,6 @@ def lineBot(op):
                 elif text.lower() == 'leave off':
                     settings["autoLeave"] = False
                     cl.sendMessage(to, "自動離開副本已關閉")
-                elif text.lower() == 'read on':
-                    settings["autoRead"] = True
-                    cl.sendMessage(to, "自動已讀已開啟")
-                elif text.lower() == 'read off':
-                    settings["autoRead"] = False
-                    cl.sendMessage(to, "自動已讀已關閉")
-                elif text.lower() == 'clonecontact':
-                    settings["copy"] = True
-                    cl.sendMessage(to, "請丟出好友資料以便複製")
                 elif text.lower() == 'contact on':
                     settings["contact"] = True
                     cl.sendMessage(to, "查看好友資料詳情開啟")
@@ -805,29 +779,6 @@ def lineBot(op):
                             for ls in lists:
                                 path = cl.getProfileCoverURL(ls)
                                 cl.sendImageWithURL(msg.to, str(path))
-                elif msg.text.lower().startswith("copy "):
-                    if 'MENTION' in msg.contentMetadata.keys()!= None:
-                        names = re.findall(r'@(\w+)', text)
-                        mention = ast.literal_eval(msg.contentMetadata['MENTION'])
-                        mentionees = mention['MENTIONEES']
-                        for mention in mentionees:
-                            contact = mention["M"]
-                            break
-                        try:
-                            cl.cloneContactProfile(contact)
-                            cl.sendMessage(msg.to, "成功複製成員，請稍等片刻，直到配置文件更改")
-                        except:
-                            cl.sendMessage(msg.to, "無法複製成員")
-                elif text.lower() == 'restore':
-                    try:
-                        clProfile.displayName = str(myProfile["displayName"])
-                        clProfile.statusMessage = str(myProfile["statusMessage"])
-                        clProfile.pictureStatus = str(myProfile["pictureStatus"])
-                        cl.updateProfileAttribute(8, clProfile.pictureStatus)
-                        cl.updateProfile(clProfile)
-                        cl.sendMessage(msg.to, "成功恢復配置文件，請稍等片刻，直到配置文件更改")
-                    except:
-                        cl.sendMessage(msg.to, "恢復失敗")
                 elif text.lower() == 'gowner':
                     group = cl.getGroup(to)
                     GS = group.creator.mid
@@ -1052,31 +1003,6 @@ def lineBot(op):
                         pass
                     else:
                         cl.sendMessage(receiver,"已讀點未設定")
-                if settings["copy"] == True:
-                    _name = msg.contentMetadata["displayName"]
-                    copy = msg.contentMetadata["mid"]
-                    groups = cl.getGroup(msg.to)
-                    targets = []
-                    for s in groups.members:
-                        if _name in s.displayName:
-                            print ("[Target] Copy")
-                            break                             
-                        else:
-                            targets.append(copy)
-                    if targets == []:
-                        cl.sendMessage(msg.to, "未找到...")
-                        pass
-                    else:
-                        for target in targets:
-                            try:
-                                cl.cloneContactProfile(target)
-                                cl.sendMessage(msg.to, "成功複製成員,請稍等,直到更新資料")
-                                settings['copy'] = False
-                                break
-                            except:
-                                     msg.contentMetadata = {'mid': target}
-                                     settings["copy"] = False
-                                     break
         if op.type == 26:
             try:
                 msg = op.message
