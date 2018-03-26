@@ -1059,7 +1059,7 @@ def lineBot(op):
                             if clMID in mention["M"]:
                                 if settings["detectMention"] == True:
                                     contact = cl.getContact(sender)
-                                    cl.sendMessage(to, "sundala nu")
+                                    cl.sendMessage(to, "標我幹嘛？")
                                     sendMessageWithMention(to, contact.mid)
                                 break
         if op.type == 55:
