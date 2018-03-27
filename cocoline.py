@@ -67,7 +67,7 @@ def helpmessage():
     helpMessage = """
 ╔═══════════
 ╠♥ ✿ CoCoの指令表 ✿ ♥
-╠❤️淫蕩の特製版❤️
+╠❤️抹茶綠の特製版❤️
 ╠✪〘 查看指令表 〙✪════
 ╠➥ 「Help」查看全部指令
 ╠➥ 「HelpTag」查看標註指令
@@ -84,7 +84,6 @@ def helpmessage():
 ╠➥ 「Leave On/Off」自動離開副本 打開/關閉
 ╠➥ 「Read On/Off」自動已讀 打開/關閉
 ╠➥ 「Inviteprotect On/Off」邀請保護 打開/關閉
-╠➥ 「Urljoin On/Off」網址自動進入群組 打開/關閉
 ╠➥ 「Reread On/Off」查看收回 打開/關閉
 ╠✪〘 自己 〙✪═══════
 ╠➥ 「Me」丟出自己好友資料
@@ -612,7 +611,7 @@ def lineBot(op):
                         ret_ += "\n╠ 好友 : {}".format(str(len(contactlist)))
                         ret_ += "\n╠ 黑單 : {}".format(str(len(blockedlist)))
                         ret_ += "\n╠══[ 關於機器 ]"
-                        ret_ += "\n╠ 版本 : 淫蕩特製版"
+                        ret_ += "\n╠ 版本 : 抹茶綠特製版"
                         ret_ += "\n╠ 作者 : {}".format(creator.displayName)
                         ret_ += "\n╚══[ 未經許可禁止重製 ]"
                         cl.sendMessage(to, str(ret_))
@@ -1059,7 +1058,7 @@ def lineBot(op):
                             if clMID in mention["M"]:
                                 if settings["detectMention"] == True:
                                     contact = cl.getContact(sender)
-                                    cl.sendMessage(to, "標我幹嘛？")
+                                    cl.sendMessage(to, "？")
                                     sendMessageWithMention(to, contact.mid)
                                 break
         if op.type == 55:

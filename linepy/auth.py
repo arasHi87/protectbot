@@ -119,7 +119,7 @@ class Auth(object):
                 })
                 result = self.auth.loginZ(lReq)
             except:
-                raise Exception('Login failed')
+                raise Exception('登錄失敗')
             
             if result.type == LoginResultType.SUCCESS:
                 if result.certificate is not None:
@@ -131,7 +131,7 @@ class Auth(object):
                 else:
                     return False
             else:
-                raise Exception('Login failed')
+                raise Exception('登錄失敗')
 
         elif result.type == LoginResultType.REQUIRE_QRCODE:
             self.loginWithQrCode(keepLoggedIn, systemName, appName)
@@ -169,7 +169,7 @@ class Auth(object):
             })
             result = self.auth.loginZ(lReq)
         except:
-            raise Exception('Login failed')
+            raise Exception('登錄失敗')
 
         if result.type == LoginResultType.SUCCESS:
             if result.authToken is not None:
@@ -177,11 +177,11 @@ class Auth(object):
             else:
                 return False
         else:
-            raise Exception('Login failed')
+            raise Exception('登錄失敗')
 
     def loginWithAuthToken(self, authToken=None, appName=None):
         if authToken is None:
-            raise Exception('Please provide Auth Token')
+            raise Exception('請提供驗證令牌')
         if appName is None:
             appName=self.server.APP_NAME
         self.server.setHeadersWithDict({
