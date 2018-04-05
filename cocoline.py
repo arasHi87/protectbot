@@ -67,7 +67,7 @@ def helpmessage():
     helpMessage = """
 ╔═══════════
 ╠♥ ✿ CoCoの指令表 ✿ ♥
-╠❤️抹茶綠の特製版❤️
+╠❤️CoCoの特製版❤️
 ╠✪〘 查看指令表 〙✪════
 ╠➥ 「Help」查看全部指令
 ╠➥ 「HelpTag」查看標註指令
@@ -611,7 +611,7 @@ def lineBot(op):
                         ret_ += "\n╠ 好友 : {}".format(str(len(contactlist)))
                         ret_ += "\n╠ 黑單 : {}".format(str(len(blockedlist)))
                         ret_ += "\n╠══[ 關於機器 ]"
-                        ret_ += "\n╠ 版本 : 抹茶綠特製版"
+                        ret_ += "\n╠ 版本 : CoCo測試版1.0"
                         ret_ += "\n╠ 作者 : {}".format(creator.displayName)
                         ret_ += "\n╚══[ 未經許可禁止重製 ]"
                         cl.sendMessage(to, str(ret_))
