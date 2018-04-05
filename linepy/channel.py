@@ -5,7 +5,7 @@ def loggedIn(func):
         if args[0].isLogin:
             return func(*args, **kwargs)
         else:
-            args[0].callback.other('You want to call the function, you must login to LINE')
+            args[0].callback.other('你想調用這個函數，你必須登錄到LINE')
     return checkLogin
 
 class Channel(object):
@@ -20,7 +20,7 @@ class Channel(object):
         self.__loginChannel()
 
     def __logChannel(self, text):
-        self.client.log('[%s] : Success login to %s' % (self.client.profile.displayName, text))
+        self.client.log('[%s] : 登錄成功 %s' % (self.client.profile.displayName, text))
 
     def __loginChannel(self):
         self.isLogin = True

@@ -7,14 +7,14 @@ def loggedIn(func):
         if args[0].isLogin:
             return func(*args, **kwargs)
         else:
-            args[0].callback.other('You want to call the function, you must login to LINE')
+            args[0].callback.other('你想調用這個函數，你必須登錄到LINE')
     return checkLogin
     
 class Object(object):
 
     def __init__(self):
         if self.isLogin == True:
-            self.log("[%s] : Login success" % self.profile.displayName)
+            self.log("[%s] : 登入成功" % self.profile.displayName)
 
     """Group"""
 
@@ -24,7 +24,7 @@ class Object(object):
         data = {'params': self.genOBSParams({'oid': groupId,'type': 'image'})}
         r = self.server.postContent(self.server.LINE_OBS_DOMAIN + '/talk/g/upload.nhn', data=data, files=files)
         if r.status_code != 201:
-            raise Exception('Update group picture failure.')
+            raise Exception('更新組圖片失敗。')
         return True
 
     """Personalize"""
@@ -38,7 +38,7 @@ class Object(object):
         data = {'params': self.genOBSParams(params)}
         r = self.server.postContent(self.server.LINE_OBS_DOMAIN + '/talk/p/upload.nhn', data=data, files=files)
         if r.status_code != 201:
-            raise Exception('Update profile picture failure.')
+            raise Exception('更新資料圖片失敗。')
         return True
         
     @loggedIn
@@ -49,7 +49,7 @@ class Object(object):
             data = {'params': self.genOBSParams({'oid': self.profile.mid,'ver': '2.0','type': 'video','cat': 'vp.mp4'})}
             r_vp = self.server.postContent(self.server.LINE_OBS_DOMAIN + '/talk/vp/upload.nhn', data=data, files=files)
             if r_vp.status_code != 201:
-                raise Exception('Update profile video picture failure.')
+                raise Exception('更新個人資料視頻圖片失敗')
             path_p = self.genTempFile('path')
             ff = FFmpeg(inputs={'%s' % path: None}, outputs={'%s' % path_p: ['-ss', '00:00:2', '-vframes', '1']})
             ff.run()
@@ -60,7 +60,7 @@ class Object(object):
     @loggedIn
     def updateProfileCover(self, path, returnAs='bool'):
         if returnAs not in ['objId','bool']:
-            raise Exception('Invalid returnAs value')
+            raise Exception('返回值無效')
         objId = self.uploadObjHome(path, type='image', returnAs='objId')
         home = self.updateProfileCoverById(objId)
         if returnAs == 'objId':
@@ -73,7 +73,7 @@ class Object(object):
     @loggedIn
     def uploadObjSquare(self, squareChatMid, path, type='image', returnAs='bool'):
         if returnAs not in ['bool']:
-            raise Exception('Invalid returnAs value')
+            raise Exception('返回值無效')
         if type not in ['image','gif','video','audio','file']:
             raise Exception('Invalid type value')
         data = open(path, 'rb').read()
@@ -103,16 +103,16 @@ class Object(object):
         })
         r = self.server.postContent(self.server.LINE_OBS_DOMAIN + '/r/g2/m/reqseq', data=data, headers=headers)
         if r.status_code != 201:
-            raise Exception('Upload %s failure.' % type)
+            raise Exception('上 %s 失敗。' % type)
         if returnAs == 'bool':
             return True
 
     @loggedIn
     def uploadObjTalk(self, path, type='image', returnAs='bool', objId=None, to=None):
         if returnAs not in ['objId','bool']:
-            raise Exception('Invalid returnAs value')
+            raise Exception('返回值無效')
         if type not in ['image','gif','video','audio','file']:
-            raise Exception('Invalid type value')
+            raise Exception('無效的類型值')
         headers=None
         files = {'file': open(path, 'rb')}
         if type == 'image' or type == 'video' or type == 'audio' or type == 'file':
@@ -137,7 +137,7 @@ class Object(object):
             })
         r = self.server.postContent(e_p, data=data, headers=headers, files=files)
         if r.status_code != 201:
-            raise Exception('Upload %s failure.' % type)
+            raise Exception('上傳 %s 失敗。' % type)
         if returnAs == 'objId':
             return objId
         elif returnAs == 'bool':
@@ -146,9 +146,9 @@ class Object(object):
     @loggedIn
     def uploadObjHome(self, path, type='image', returnAs='bool', objId=None):
         if returnAs not in ['objId','bool']:
-            raise Exception('Invalid returnAs value')
+            raise Exception('返回值無效')
         if type not in ['image','video','audio']:
-            raise Exception('Invalid type value')
+            raise Exception('無效的類型值')
         if type == 'image':
             contentType = 'image/jpeg'
         elif type == 'video':
@@ -171,7 +171,7 @@ class Object(object):
         })
         r = self.server.postContent(self.server.LINE_OBS_DOMAIN + '/myhome/c/upload.nhn', headers=hr, data=file)
         if r.status_code != 201:
-            raise Exception('Upload object home failure.')
+            raise Exception('上傳對象主頁失敗。')
         if returnAs == 'objId':
             return objId
         elif returnAs == 'bool':
@@ -182,7 +182,7 @@ class Object(object):
         if saveAs == '':
             saveAs = self.genTempFile('path')
         if returnAs not in ['path','bool','bin']:
-            raise Exception('Invalid returnAs value')
+            raise Exception('返回值無效')
         params = {'oid': messageId}
         url = self.server.urlEncode(self.server.LINE_OBS_DOMAIN, '/talk/m/download.nhn', params)
         r = self.server.getContent(url)
@@ -195,7 +195,7 @@ class Object(object):
             elif returnAs == 'bin':
                 return r.raw
         else:
-            raise Exception('Download object failure.')
+            raise Exception('下載對象失敗。')
 
     @loggedIn
     def forwardObjectMsg(self, to, msgId, contentType='image'):
@@ -204,5 +204,5 @@ class Object(object):
         data = self.genOBSParams({'oid': 'reqseq','reqseq': self.revision,'type': contentType,'copyFrom': '/talk/m/%s' % msgId},'default')
         r = self.server.postContent(self.server.LINE_OBS_DOMAIN + '/talk/m/copy.nhn', data=data)
         if r.status_code != 200:
-            raise Exception('Forward object failure.')
+            raise Exception('轉發對象失敗。')
         return True

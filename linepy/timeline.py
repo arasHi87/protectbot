@@ -9,7 +9,7 @@ def loggedIn(func):
         if args[0].isLogin:
             return func(*args, **kwargs)
         else:
-            args[0].callback.other('You want to call the function, you must login to LINE')
+            args[0].callback.other('你想調用這個函數，你必須登錄到LINE')
     return checkLogin
     
 class Timeline(Channel):
@@ -159,7 +159,7 @@ class Timeline(Channel):
         url = self.server.urlEncode(self.server.LINE_TIMELINE_MH, '/album/v3/album.json', params)
         r = self.server.postContent(url, data=data, headers=self.server.timelineHeaders)
         if r.status_code != 201:
-            raise Exception('Create a new album failure.')
+            raise Exception('創建一個新的相冊失敗。')
         return True
 
     @loggedIn
@@ -168,7 +168,7 @@ class Timeline(Channel):
         url = self.server.urlEncode(self.server.LINE_TIMELINE_MH, '/album/v3/album/%s' % albumId, params)
         r = self.server.deleteContent(url, headers=self.server.timelineHeaders)
         if r.status_code != 201:
-            raise Exception('Delete album failure.')
+            raise Exception('刪除相冊失敗。')
         return True
     
     @loggedIn
@@ -194,7 +194,7 @@ class Timeline(Channel):
         url = self.server.urlEncode(self.server.LINE_TIMELINE_MH, '/album/v3/album/%s' % albumId, params)
         r = self.server.putContent(url, data=data, headers=self.server.timelineHeaders)
         if r.status_code != 201:
-            raise Exception('Change album name failure.')
+            raise Exception('更改專輯名稱失敗。')
         return True
 
     @loggedIn
@@ -214,7 +214,7 @@ class Timeline(Channel):
         })
         r = self.server.getContent(self.server.LINE_OBS_DOMAIN + '/album/a/upload.nhn', data=file, headers=hr)
         if r.status_code != 201:
-            raise Exception('Add image to album failure.')
+            raise Exception('將圖片添加到相冊失敗。')
         return r.json()
 
     @loggedIn
@@ -240,4 +240,4 @@ class Timeline(Channel):
             elif returnAs == 'bin':
                 return r.raw
         else:
-            raise Exception('Download image album failure.')
+            raise Exception('下載圖片專輯失敗。')

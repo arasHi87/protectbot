@@ -30,7 +30,7 @@ class Models(Object):
 
     def downloadFileURL(self, fileUrl, returnAs='path', saveAs='', headers=None):
         if returnAs not in ['path','bool','bin']:
-            raise Exception('Invalid returnAs value')
+            raise Exception('返回值無效')
         if saveAs == '':
             saveAs = self.genTempFile()
         r = self.server.getContent(fileUrl, headers=headers)
@@ -43,26 +43,26 @@ class Models(Object):
             elif returnAs == 'bin':
                 return r.raw
         else:
-            raise Exception('Download file failure.')
+            raise Exception('下載文件失敗。')
 
     """Generator"""
 
     def genTempFile(self, returnAs='path'):
         try:
             if returnAs not in ['file','path']:
-                raise Exception('Invalid returnAs value')
+                raise Exception('返回值無效')
             fName, fPath = 'linepy-%s-%i.bin' % (int(time.time()), randint(0, 9)), tempfile.gettempdir()
             if returnAs == 'file':
                 return fName
             elif returnAs == 'path':
                 return os.path.join(fPath, fName)
         except:
-            raise Exception('tempfile is required')
+            raise Exception('臨時文件是必需的')
 
     def genOBSParams(self, newList, returnAs='json'):
         oldList = {'name': self.genTempFile('file'),'ver': '1.0'}
         if returnAs not in ['json','b64','default']:
-            raise Exception('Invalid parameter returnAs')
+            raise Exception('無效的參數返回為')
         oldList.update(newList)
         if 'range' in oldList:
             new_range='bytes 0-%s\/%s' % ( str(oldList['range']-1), str(oldList['range']) )

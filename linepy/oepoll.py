@@ -12,7 +12,7 @@ class OEPoll(object):
 
     def __init__(self, client):
         if type(client) is not LINE:
-            raise Exception('You need to set LINE instance to initialize OEPoll')
+            raise Exception('您需要設置LINE實例來初始化OEPoll')
         self.client = client
     
     def __fetchOperation(self, revision, count=1):

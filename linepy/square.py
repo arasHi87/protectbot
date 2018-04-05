@@ -8,9 +8,9 @@ def loggedIn(func):
             if args[0].isLogin:
                 return func(*args, **kwargs)
             else:
-                args[0].callback.other('You want to call the function, you must login to LINE')
+                args[0].callback.other('你想調用這個函數，你必須登錄到LINE')
         else:
-            args[0].callback.other('Your LINE account is not support Square')
+            args[0].callback.other('登入成功')
     return checkLogin
 
 class Square(object):
@@ -25,7 +25,7 @@ class Square(object):
             self.squareObsToken = self.acquireEncryptedAccessToken(2).split('\x1e')[1]
         except:
             self.isSupportSquare = False
-            self.log('Your LINE account is not support Square')
+            self.log('登入成功')
 
     """Object"""
 
@@ -110,7 +110,7 @@ class Square(object):
     @loggedIn
     def sendSquareGift(self, squareChatMid, productId, productType):
         if productType not in ['theme','sticker']:
-            raise Exception('Invalid productType value')
+            raise Exception('產品類型值無效')
         contentMetadata = {
             'MSGTPL': str(randint(0, 10)),
             'PRDTYPE': productType.upper(),
