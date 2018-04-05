@@ -3,9 +3,8 @@
     "autoJoin": true,
     "autoJoinTicket": true,
     "autoLeave": false,
-    "autoRead": true,
+    "autoRead": false,
     "blacklist": {
-        "u29f1984703c898872a256532531b82bf": true,
         "u2a4526951573a993d5295c7e066687ed": true,
         "u34af8867a98b57ab604a84b1158ee22e": true,
         "u5242015f0472274c5ba378e9c8d4eaa1": true,
