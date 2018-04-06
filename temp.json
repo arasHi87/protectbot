@@ -25,7 +25,7 @@
     "contact": false,
     "dblack": false,
     "dblacklist": false,
-    "detectMention": true,
+    "detectMention": false,
     "inviteprotect": false,
     "keyCommand": "",
     "kickerjoin": false,
