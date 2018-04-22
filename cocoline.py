@@ -8,7 +8,7 @@ import time, random, sys, json, codecs, threading, glob, re, string, os, request
 from gtts import gTTS
 from googletrans import Translator
 botStart = time.time()
-cl = LINE("LINE帳號","LINE密碼")
+cl = LINE()
 cl.log("Auth Token : " + str(cl.authToken))
 oepoll = OEPoll(cl)
 readOpen = codecs.open("read.json","r","utf-8")
@@ -67,7 +67,6 @@ def helpmessage():
     helpMessage = """
 ╔═══════════
 ╠♥ ✿ CoCoの指令表 ✿ ♥
-╠❤️CoCoの特製版❤️
 ╠✪〘 查看指令表 〙✪════
 ╠➥ 「Help」查看全部指令
 ╠➥ 「HelpTag」查看標註指令
@@ -131,7 +130,7 @@ def helpmessage():
 ╠➥ 「R」查看已讀
 ╠➥ 「F/Gbc」好友/群組廣播
 ╠➥「/invitemeto:」使用群組識別碼邀請至群組
-╚═〘 Credits By: ©CoCo™  〙
+╚═
 """
     return helpMessage
 def helpmessagetag():
@@ -149,7 +148,7 @@ def helpmessagetag():
 ╠➥ 「Cover @」標注查看封面
 ║➥ 「Ban @」標註加入黑單
 ║➥ 「Unban @」標註解除黑單
-╚═〘 Credits By: ©CoCo™  〙
+╚═
 """
     return helpMessageTag
 def helpmessagekick():
@@ -164,7 +163,7 @@ def helpmessagekick():
 ╠➥ 「Uk mid」使用系統識別碼踢出成員
 ╠➥ 「Kill ban」踢出黑單成員
 ╠➥ 「Zk」踢出名字0字成員
-╚═〘 Credits By: ©CoCo™  〙
+╚═
 """
     return helpMessageKick
 def lineBot(op):
@@ -174,7 +173,7 @@ def lineBot(op):
         if op.type == 5:
             contact = cl.getContact(param2)
             if settings["autoAdd"] == True:
-                cl.sendMessage(op.param1, "你好 {} 謝謝你加本機為好友 :D\n       本機為CoCo製作\n       line.me/ti/p/1MRX_Gjbmv".format(str(cl.getContact(op.param1).displayName)))
+                cl.sendMessage(op.param1, "你好 {} 謝謝你加本機為好友 :D\n       line.me/ti/p/1MRX_Gjbmv".format(str(cl.getContact(op.param1).displayName)))
         if op.type == 11:
             group = cl.getGroup(op.param1)
             contact = cl.getContact(op.param2)
