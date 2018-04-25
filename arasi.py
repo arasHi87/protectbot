@@ -138,6 +138,12 @@ def lineBot(op):
                     gid = user['gid']
                     url = user['url']
                     acceptGroupInvitationByTicket(gid, url)
+                    G = cl.getGroup(to)
+                    if G.preventedJoinByTicket == True:
+                        pass
+                    else:
+                        G.preventedJoinByTicket = True
+                        cl.updateGroup(G)
                 elif "gid" in msg.text:
                     gid = text.replace("gid ","")
                     url = {
