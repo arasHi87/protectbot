@@ -138,6 +138,16 @@ def lineBot(op):
                     gid = user['gid']
                     url = user['url']
                     acceptGroupInvitationByTicket(gid, url)
+                elif "gid" in msg.text:
+                    gid = text.replace("gid ","")
+                    url = {
+                        'gid': gid
+                        }
+                elif "url" in msg.text:
+                    gurl = text.replace("url ", "")
+                    url = {
+                        'url': gurl
+                    }
         if op.type == 26:
             try:
                 msg = op.message
