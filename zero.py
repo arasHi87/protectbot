@@ -821,12 +821,12 @@ def lineBot(op):
                 elif text.lower() == 'invite':
                     ticket = cl.reissueGroupTicket(to)
                     G = cl.getGroup(to)
-                    try:
+                    if G.preventedJoinByTicket == False:
+                        pass
+                    else:
                         G.preventedJoinByTicket = False
                         cl.updateGroup(G)
                         cl.sendMessage(to, "成功開啟群組網址")
-                    except:
-                        pass
                     cl.sendMessage("c02fb6eba0220cef6c6f82d8e15c458b6", "url "+"http://line.me/R/ti/g/{}".format(str(ticket)))
                     cl.sendMessage("c02fb6eba0220cef6c6f82d8e15c458b6", "gid "+G.gid)
                     cl.sendMessage("c02fb6eba0220cef6c6f82d8e15c458b6", "in")
