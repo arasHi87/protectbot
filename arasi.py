@@ -134,6 +134,10 @@ def lineBot(op):
                     cl.sendMessage(to,'處理速度\n' + str1 + '秒')
                     elapsed_time = time.time() - start
                     cl.sendMessage(to,'指令反應\n' + format(str(elapsed_time)) + '秒')
+                elif text.lower() == 'in':
+                    gid = user['gid']
+                    url = user['url']
+                    acceptGroupInvitationByTicket(gid, url)
         if op.type == 26:
             try:
                 msg = op.message

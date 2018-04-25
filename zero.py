@@ -412,10 +412,6 @@ def lineBot(op):
                     runtime = timeNow - botStart
                     runtime = format_timespan(runtime)
                     cl.sendMessage(to, "機器運行時間 {}".format(str(runtime)))
-                elif text.lower() == 'in':
-                    gid = user['gid']
-                    url = user['url']
-                    acceptGroupInvitationByTicket(gid, url)
                 elif text.lower() == 'about':
                     try:
                         arr = []
