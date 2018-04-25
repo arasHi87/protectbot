@@ -17,6 +17,11 @@
         "uda21e42d887375e275a3325d2f3cdd71": true,
         "uec6d62c3e4a61f033332bc1d86133e49": true
     },
+    "bot": {
+        "u85ee80cfb293599510d0c17ab25a5c98": true,
+        "u8efc93824990b63d86eebb930ab97360": true,
+        "ue09b0b2b8a4fa1447c5de923cb376e5f": true
+    },
     "canceljoin": false,
     "cancelprotect": false,
     "changeGroupPicture": {},

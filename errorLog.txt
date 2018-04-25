@@ -1,0 +1,492 @@
+
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] TalkException(parameterMap={}, code=82, reason='types mismatch')
+[<module 'time' (built-in)>] TalkException(parameterMap={}, code=82, reason='types mismatch')
+[<module 'time' (built-in)>] name 'u72e36ec4d3a1c6b3b5b4a3654eead14a' is not defined
+[<module 'time' (built-in)>] TalkException(code=0, reason='targetUserIds is empty', parameterMap=None)
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] TalkException(code=0, parameterMap=None, reason='invalid mid')
+[<module 'time' (built-in)>] TalkException(parameterMap=None, code=0, reason='invalid mid')
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] cancelGroupInvitation() missing 1 required positional argument: 'contactIds'
+[<module 'time' (built-in)>] TalkException(code=3, parameterMap=None, reason='no contact: ua4daf7f920d84266ddcfcac7faeab2ee')
+[<module 'time' (built-in)>] cancelGroupInvitation() missing 1 required positional argument: 'contactIds'
+[<module 'time' (built-in)>] cancelGroupInvitation() missing 1 required positional argument: 'contactIds'
+[<module 'time' (built-in)>] TalkException(code=10, parameterMap={'2': 'c6674be661f3d7bc4b22bc5533f412751'}, reason='You are not related to group: c6674be661f3d7bc4b22bc5533f412751')
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] cancelGroupInvitation() missing 1 required positional argument: 'contactIds'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] cancelGroupInvitation() missing 1 required positional argument: 'contactIds'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] TalkException(reason='You are not related to group: cf01904f9a20c779e172ccedced44c43e', parameterMap={'2': 'cf01904f9a20c779e172ccedced44c43e'}, code=10)
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] name 'param2' is not defined
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] TalkException(reason='invalid mid', parameterMap=None, code=0)
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] TalkException(parameterMap=None, reason='no contact: ua4daf7f920d84266ddcfcac7faeab2ee', code=3)
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] TalkException(parameterMap={'2': 'c7b7a7004840346dca40fcad94c60ee4c'}, reason='You are not related to group: c7b7a7004840346dca40fcad94c60ee4c', code=10)
+[<module 'time' (built-in)>] local variable 'msg' referenced before assignment
+[<module 'time' (built-in)>] name 'param2' is not defined
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] local variable 'msg' referenced before assignment
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'MENTION'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] TalkException(parameterMap={'2': 'ca50c59f8b8e6c6379974db092282d678'}, reason='You are not related to group: ca50c59f8b8e6c6379974db092282d678', code=10)
+[<module 'time' (built-in)>] TalkException(parameterMap={'2': 'ca50c59f8b8e6c6379974db092282d678'}, reason='You are not related to group: ca50c59f8b8e6c6379974db092282d678', code=10)
+[<module 'time' (built-in)>] TalkException(parameterMap={'2': 'ca50c59f8b8e6c6379974db092282d678'}, reason='You are not related to group: ca50c59f8b8e6c6379974db092282d678', code=10)
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] TalkException(parameterMap=None, reason='invalid mid', code=0)
+[<module 'time' (built-in)>] TalkException(parameterMap=None, reason='invalid mid', code=0)
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'MENTION'
+[<module 'time' (built-in)>] TalkException(parameterMap=None, reason='no contact: ua4daf7f920d84266ddcfcac7faeab2ee', code=3)
+[<module 'time' (built-in)>] 'MENTION'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] TalkException(parameterMap={'2': 'c10b36a68ae5631bced404d94c1ff3e19'}, reason='You are not related to group: c10b36a68ae5631bced404d94c1ff3e19', code=10)
+[<module 'time' (built-in)>] name 'param2' is not defined
+[<module 'time' (built-in)>] TalkException(parameterMap={'2': 'c7022dcb54e887062d7c3f6c9a2388b48'}, reason='You are not related to group: c7022dcb54e887062d7c3f6c9a2388b48', code=10)
+[<module 'time' (built-in)>] TalkException(parameterMap={'2': 'c7022dcb54e887062d7c3f6c9a2388b48'}, reason='You are not related to group: c7022dcb54e887062d7c3f6c9a2388b48', code=10)
+[<module 'time' (built-in)>] TalkException(parameterMap={'2': 'c45af77b5faa6711cf91dd4093a64c363'}, reason='You are not related to group: c45af77b5faa6711cf91dd4093a64c363', code=10)
+[<module 'time' (built-in)>] name 'param2' is not defined
+[<module 'time' (built-in)>] TalkException(code=10, reason='You are not related to group: c10b36a68ae5631bced404d94c1ff3e19', parameterMap={'2': 'c10b36a68ae5631bced404d94c1ff3e19'})
+[<module 'time' (built-in)>] TalkException(code=6, reason='Invalid length of groupTitle: \n╔═══════════\n╠➥  指令表\n╠✪〘 查看指令表 〙✪════\n╠➥ 「Help」查看全部指令\n╠➥ 「HelpTag」查看標註指令\n╠➥ 「HelpKick」查看踢人指令\n╠✪〘 狀態 〙✪═══════\n╠➥ 「Rebot」重新啟動機器\n╠➥ 「Runtime」查看機器運行時間\n╠➥ 「Speed」查看機器速度\n╠➥ 「Set」查看設定\n╠➥ 「About」查看自己的狀態\n╠✪〘 設定 〙✪═══════\n╠➥ 「Add On/Off」自動加入好友 打開/關閉\n╠➥ 「Join On/Off」邀請自動進入群組 打開/關閉\n╠➥ 「Leave On/Off」自動離開副本 打開/關閉\n╠➥ 「Read On/Off」自動已讀 打開/關閉\n╠➥ 「Inviteprotect On/Off」邀請保護 打開/關閉\n╠➥ 「Reread On/Off」查看收回 打開/關閉\n╠✪〘 自己 〙✪═══════\n╠➥ 「Me」丟出自己好友資料\n╠➥ 「MyMid」查看自己系統識別碼\n╠➥ 「MyName」查看自己名字\n╠➥ 「MyBio」查看自己個簽\n╠➥ 「MyPicture」查看自己頭貼網址\n╠➥ 「MyCover」查看自己封面網址\n╠➥ 「Contact @」標註查看好友資料\n╠➥ 「Mid @」標註查看系統識別碼\n╠➥ 「Name @」標註查看名稱\n╠➥ 「Bio @」標註查看狀態消息\n╠➥ 「Picture @」標註查看頭貼\n╠➥ 「Cover @」標注查看封面\n╠✪〘 群組 〙✪═══════\n╠➥ 「Gowner」查看群組擁有者\n╠➥ 「Gurl」丟出群組網址\n╠➥ 「O/Curl」打開/關閉群組網址\n╠➥ 「Lg」查看所有群組\n╠➥ 「Gb」查看群組成員\n╠➥ 「Ginfo」查看群組狀態\n╠➥ 「Ri @」標註來回機票\n╠➥ 「Tk @」標注踢出成員(多踢)\n╠➥ 「Mk @」標注踢出成員(單踢)\n╠➥ 「Vk @」標註踢出並清除訊息\n╠➥ 「Vk:mid」使用系統識別碼踢出並清除訊息\n╠➥ 「Nk Name」使用名子踢出成員\n╠➥ 「Uk mid」使用系統識別碼踢出成員\n╠➥ 「NT Name」使用名子標註成員\n╠➥ 「Zk」踢出0字元\n╠➥ 「Zt」標註名字0字成員\n╠➥ 「Zm」丟出0字成員的系統識別碼\n╠➥ 「Cancel」取消所有成員邀請\n╠➥ 「Name」更改群組名稱\n╠➥ 「Gc @」標註查看個人資料\n╠➥ 「Inv mid」使用系統識別碼邀請進入群組\n║➥ 「Ban @」標註加入黑單\n║➥ 「Unban @」標註解除黑單\n║➥ 「Clear Ban」清空黑單\n║➥ 「Kill Ban」剔除黑單\n╠➥ 「Zk」踢出名字0字成員\n╠✪〘 特別 〙✪═══════\n╠➥ 「Tagall」標註群組所有成員\n╠➥ 「S N/F/R」已讀點 開啟/關閉/重設\n╠➥ 「R」查看已讀\n╠➥ 「F/Gbc」好友/群組廣播\n╠➥「/invitemeto:」使用群組識別碼邀請至群組\n╠➥「invite」邀請保護機\n╚═\n', parameterMap=None)
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] name 'param2' is not defined
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] name 'param2' is not defined
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] name 'param2' is not defined
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] TalkException(reason='request blocked', parameterMap=None, code=35)
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] TalkException(reason='request blocked', parameterMap=None, code=35)
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] TalkException(reason='request blocked', parameterMap=None, code=35)
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] TalkException(reason='request blocked', parameterMap=None, code=35)
+[<module 'time' (built-in)>] TalkException(reason='request blocked', parameterMap=None, code=35)
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] TalkException(reason='request blocked', parameterMap=None, code=35)
+[<module 'time' (built-in)>] TalkException(reason='request blocked', parameterMap=None, code=35)
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] TalkException(reason='request blocked', parameterMap=None, code=35)
+[<module 'time' (built-in)>] TalkException(reason='request blocked', parameterMap=None, code=35)
+[<module 'time' (built-in)>] TalkException(reason='request blocked', parameterMap=None, code=35)
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] TalkException(reason='request blocked', parameterMap=None, code=35)
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] TalkException(reason='request blocked', parameterMap=None, code=35)
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] TalkException(reason='request blocked', parameterMap=None, code=35)
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] TalkException(reason='request blocked', parameterMap=None, code=35)
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] TalkException(reason='request blocked', parameterMap=None, code=35)
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] TalkException(reason='request blocked', code=35, parameterMap=None)
+[<module 'time' (built-in)>] TalkException(reason='request blocked', code=35, parameterMap=None)
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
