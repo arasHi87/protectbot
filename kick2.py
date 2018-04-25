@@ -4,7 +4,7 @@ from akad.ttypes import Message
 from datetime import datetime
 import json,sys,atexit,time,codecs,timeit
 botStart = time.time()
-cl = LINE("EsiUT0opTxzcn6yHYVY0.JVYtGKMqTJ2g7RUtcRLZya.38PsHTqaAi4zq4Q1WoXOh6+lXMcjNzxCkVwLPrpHY1c=")
+cl = LINE()
 channelToken = cl.getChannelResult()
 cl.log("Auth Token : " + str(cl.authToken))
 print ("======登入成功=====")
@@ -45,8 +45,9 @@ def lineBot(op):
         if op.type == 11:
             group = cl.getGroup(op.param1)
             contact = cl.getContact(op.param2)
+            GS = group.creator.mid
             if settings["qrprotect"] == True:
-                if op.param2 in admin:
+                if op.param2 in admin or op.param2 in settings['bot'] or op.param2 == GS:
                     pass
                 else:
                     gs = cl.getGroup(op.param1)

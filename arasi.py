@@ -45,8 +45,9 @@ def lineBot(op):
         if op.type == 11:
             group = cl.getGroup(op.param1)
             contact = cl.getContact(op.param2)
+            GS = group.creator.mid
             if settings["qrprotect"] == True:
-                if op.param2 in admin:
+                if op.param2 in admin or op.param2 in settings['bot'] or op.param2 == GS:
                     pass
                 else:
                     gs = cl.getGroup(op.param1)

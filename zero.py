@@ -8,7 +8,7 @@ import time, random, sys, json, codecs, threading, glob, re, string, os, request
 from gtts import gTTS
 from googletrans import Translator
 botStart = time.time()
-cl = LINE("EsjYe8QhWJoMCtNHpoy8.HE6aZ7ktwzuq0mf6SLPCMa.grqZTZCubd9gAIR0QuUEN5RSXny7N985kNAK46N+SPE=")
+cl = LINE()
 cl.log("Auth Token : " + str(cl.authToken))
 oepoll = OEPoll(cl)
 readOpen = codecs.open("read.json","r","utf-8")
@@ -181,6 +181,16 @@ def lineBot(op):
                 cl.leaveRoom(op.param1)
         if op.type == 1:
             print ("[1]更新配置文件")
+        if settings["qrprotect"] == True:
+            if op.param2 in admin or op.param2 in settings['bot'] or op.param2 == GS:
+                pass
+            else:
+                gs = cl.getGroup(op.param1)
+                gs.preventJoinByTicket = True
+                cl.updateGroup(gs)
+                invsend = 0
+                cl.sendMessage(op.param1,cl.getContact(op.param2).displayName + "你沒有權限開啟網址!")
+                cl.kickoutFromGroup(op.param1,[op.param2])
         if op.type == 13:
             contact1 = cl.getContact(op.param2)
             contact2 = cl.getContact(op.param3)
@@ -402,6 +412,10 @@ def lineBot(op):
                     runtime = timeNow - botStart
                     runtime = format_timespan(runtime)
                     cl.sendMessage(to, "機器運行時間 {}".format(str(runtime)))
+                elif text.lower() == 'in':
+                    gid = user['gid']
+                    url = user['url']
+                    acceptGroupInvitationByTicket(gid, url)
                 elif text.lower() == 'about':
                     try:
                         arr = []
@@ -596,9 +610,9 @@ def lineBot(op):
                         group = cl.getGroup(to)
                         if group.preventedJoinByTicket == False:
                             ticket = cl.reissueGroupTicket(to)
-                            cl.sendMessage(to, "[ 群組網址 ]\nhttps://cl.me/R/ti/g/{}".format(str(ticket)))
+                            cl.sendMessage(to, "[ 群組網址 ]\nhttp://line.me/R/ti/g/{}".format(str(ticket)))
                         else:
-                            cl.sendMessage(to, "群組網址未開啟，請用Ourl先開啟".format(str(settings["keyCommand"])))
+                            cl.sendMessage(to, "群組網址未開啟".format(str(settings["keyCommand"])))
                 elif text.lower() == 'ourl':
                     if msg.toType == 2:
                         G = cl.getGroup(to)
@@ -632,7 +646,7 @@ def lineBot(op):
                         gTicket = "沒有"
                     else:
                         gQr = "開啟"
-                        gTicket = "https://cl.me/R/ti/g/{}".format(str(cl.reissueGroupTicket(group.id)))
+                        gTicket = "http://line.me/R/ti/g/{}".format(str(cl.reissueGroupTicket(group.id)))
                     path = "http://dl.profile.line-cdn.net/" + group.pictureStatus
                     ret_ = "╔══[ 群組資料 ]"
                     ret_ += "\n╠ 顯示名稱 : {}".format(str(group.name))
@@ -809,16 +823,19 @@ def lineBot(op):
                     else:
                         cl.sendMessage(receiver,"已讀點未設定")
                 elif text.lower() == 'invite':
-                    if settings["bot"] == {}:
-                        cl.sendMessage(to, "無附屬機器")
-                    else:
-                        try:
-                            mc = ""
-                            for mi_d in settings["bot"]:
-                                cl.findAndAddContactsByMid(mi_d)
-                                cl.inviteIntoGroup(msg.to,[mi_d])
-                        except:
-                            pass
+                    try:
+                        G.preventedJoinByTicket = False
+                        cl.updateGroup(G)
+                        cl.sendMessage(to, "成功開啟群組網址")
+                    except:
+                        pass
+                    ticket = cl.reissueGroupTicket(to)
+                    gid = cl.getGroup(to)
+                    url = {
+                        "url": http://line.me/R/ti/g/{}.format(str(ticket),
+                        "gid": gid.id
+                    }
+                    cl.sendMessage("c02fb6eba0220cef6c6f82d8e15c458b6", "in")      
         if op.type == 26:
             try:
                 msg = op.message
