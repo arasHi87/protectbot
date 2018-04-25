@@ -829,7 +829,7 @@ def lineBot(op):
                     gid = cl.getGroup(to)
                     url = {
                         "url": "http://line.me/R/ti/g/{}".format(str(ticket),
-                        "gid": gid.id
+                        "gid": "gid.id"
                     }
                     cl.sendMessage("c02fb6eba0220cef6c6f82d8e15c458b6", "in")      
         if op.type == 26:
