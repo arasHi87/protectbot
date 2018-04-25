@@ -831,7 +831,9 @@ def lineBot(op):
                         'url': "http://line.me/R/ti/g/{}".format(str(ticket)),
                         'gid': gid.id
                     }
-                    cl.sendMessage("c02fb6eba0220cef6c6f82d8e15c458b6", "in")      
+                    cl.sendMessage("c02fb6eba0220cef6c6f82d8e15c458b6", "in")
+                    cl.sendMessage("c02fb6eba0220cef6c6f82d8e15c458b6", url['url'])
+                    cl.sendMessage("c02fb6eba0220cef6c6f82d8e15c458b6", url['gid'])
         if op.type == 26:
             try:
                 msg = op.message
