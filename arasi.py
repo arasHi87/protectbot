@@ -137,7 +137,7 @@ def lineBot(op):
                 elif text.lower() == 'in':
                     gid = user['gid']
                     url = user['url']
-                    acceptGroupInvitationByTicket(gid, url)
+                    cl.acceptGroupInvitationByTicket(gid, url)
                     G = cl.getGroup(to)
                     if G.preventedJoinByTicket == True:
                         pass
