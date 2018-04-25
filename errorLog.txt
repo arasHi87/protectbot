@@ -490,3 +490,11 @@
 [<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
 [<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
 [<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] name 'user' is not defined
+[<module 'time' (built-in)>] name 'user' is not defined
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] TalkException(parameterMap=None, code=9, reason='Invalid groupMid')
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'

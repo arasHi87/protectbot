@@ -135,8 +135,8 @@ def lineBot(op):
                     elapsed_time = time.time() - start
                     cl.sendMessage(to,'指令反應\n' + format(str(elapsed_time)) + '秒')
                 elif text.lower() == 'in':
-                    gid = user['gid']
-                    url = user['url']
+                    gid = url['gid']
+                    url = url['url']
                     cl.acceptGroupInvitationByTicket(gid, url)
                     G = cl.getGroup(to)
                     if G.preventedJoinByTicket == True:
@@ -150,9 +150,9 @@ def lineBot(op):
                         'gid': gid
                         }
                 elif "url" in msg.text:
-                    gurl = text.replace("url ", "")
+                    url = text.replace("url ", "")
                     url = {
-                        'url': gurl
+                        'url': url
                     }
         if op.type == 26:
             try:
