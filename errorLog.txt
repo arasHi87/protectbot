@@ -531,3 +531,769 @@
 [<module 'time' (built-in)>] TalkException(parameterMap={'2': 'cfd668f2347b7174dca93e7ec73becec4'}, code=10, reason='You are not related to group: cfd668f2347b7174dca93e7ec73becec4')
 [<module 'time' (built-in)>] TalkException(parameterMap={'2': 'cfd668f2347b7174dca93e7ec73becec4'}, code=10, reason='You are not related to group: cfd668f2347b7174dca93e7ec73becec4')
 [<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] TalkException(parameterMap=None, code=0, reason='invalid mid')
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] local variable 'GS' referenced before assignment
+[<module 'time' (built-in)>] TalkException(reason='invalid groupId', code=0, parameterMap=None)
+[<module 'time' (built-in)>] TalkException(reason='invalid mid', code=0, parameterMap=None)
+[<module 'time' (built-in)>] TalkException(reason='invalid mid', code=0, parameterMap=None)
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] TalkException(reason='invalid mid', code=0, parameterMap=None)
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] TalkException(parameterMap=None, reason='invalid groupId', code=0)
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] TalkException(parameterMap=None, code=6, reason='Invalid length of groupTitle: \n╔═══════════\n╠➥  指令表\n╠✪〘 查看指令表 〙✪════\n╠➥ 「Help」查看全部指令\n╠➥ 「HelpTag」查看標註指令\n╠➥ 「HelpKick」查看踢人指令\n╠✪〘 狀態 〙✪═══════\n╠➥ 「Rebot」重新啟動機器\n╠➥ 「Runtime」查看機器運行時間\n╠➥ 「Speed」查看機器速度\n╠➥ 「Set」查看設定\n╠➥ 「About」查看自己的狀態\n╠✪〘 設定 〙✪═══════\n╠➥ 「Add On/Off」自動加入好友 打開/關閉\n╠➥ 「Join On/Off」邀請自動進入群組 打開/關閉\n╠➥ 「Leave On/Off」自動離開副本 打開/關閉\n╠➥ 「Read On/Off」自動已讀 打開/關閉\n╠➥ 「Inviteprotect On/Off」邀請保護 打開/關閉\n╠➥ 「Reread On/Off」查看收回 打開/關閉\n╠✪〘 自己 〙✪═══════\n╠➥ 「Me」丟出自己好友資料\n╠➥ 「MyMid」查看自己系統識別碼\n╠➥ 「MyName」查看自己名字\n╠➥ 「MyBio」查看自己個簽\n╠➥ 「MyPicture」查看自己頭貼網址\n╠➥ 「MyCover」查看自己封面網址\n╠➥ 「Contact @」標註查看好友資料\n╠➥ 「Mid @」標註查看系統識別碼\n╠➥ 「Name @」標註查看名稱\n╠➥ 「Bio @」標註查看狀態消息\n╠➥ 「Picture @」標註查看頭貼\n╠➥ 「Cover @」標注查看封面\n╠✪〘 群組 〙✪═══════\n╠➥ 「Gowner」查看群組擁有者\n╠➥ 「Gurl」丟出群組網址\n╠➥ 「O/Curl」打開/關閉群組網址\n╠➥ 「Lg」查看所有群組\n╠➥ 「Gb」查看群組成員\n╠➥ 「Ginfo」查看群組狀態\n╠➥ 「Ri @」標註來回機票\n╠➥ 「Tk @」標注踢出成員(多踢)\n╠➥ 「Mk @」標注踢出成員(單踢)\n╠➥ 「Vk @」標註踢出並清除訊息\n╠➥ 「Vk:mid」使用系統識別碼踢出並清除訊息\n╠➥ 「Nk Name」使用名子踢出成員\n╠➥ 「Uk mid」使用系統識別碼踢出成員\n╠➥ 「NT Name」使用名子標註成員\n╠➥ 「Zk」踢出0字元\n╠➥ 「Zt」標註名字0字成員\n╠➥ 「Zm」丟出0字成員的系統識別碼\n╠➥ 「Cancel」取消所有成員邀請\n╠➥ 「Name」更改群組名稱\n╠➥ 「Gc @」標註查看個人資料\n╠➥ 「Inv mid」使用系統識別碼邀請進入群組\n║➥ 「Ban @」標註加入黑單\n║➥ 「Unban @」標註解除黑單\n║➥ 「Clear Ban」清空黑單\n║➥ 「Kill Ban」剔除黑單\n╠➥ 「Zk」踢出名字0字成員\n╠✪〘 特別 〙✪═══════\n╠➥ 「Tagall」標註群組所有成員\n╠➥ 「S N/F/R」已讀點 開啟/關閉/重設\n╠➥ 「R」查看已讀\n╠➥ 「F/Gbc」好友/群組廣播\n╠➥「/invitemeto:」使用群組識別碼邀請至群組\n╠➥「invite」邀請保護機\n╚═\n')
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'

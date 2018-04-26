@@ -4,7 +4,7 @@ from akad.ttypes import Message
 from datetime import datetime
 import json,sys,atexit,time,codecs,timeit
 botStart = time.time()
-cl = LINE()
+cl = LINE("Es3lZF84ST8Im3D39CM3.Qp4h2VwCAdsgafSJuPDFuW.2bc6l5StVcmo41EscLZzWV7vQ7aFMdlZ31PP2dPbnvQ=")
 channelToken = cl.getChannelResult()
 cl.log("Auth Token : " + str(cl.authToken))
 print ("======登入成功=====")
@@ -43,11 +43,8 @@ def lineBot(op):
         if op.type == 0:
             return
         if op.type == 11:
-            group = cl.getGroup(op.param1)
-            contact = cl.getContact(op.param2)
-            GS = group.creator.mid
             if settings["qrprotect"] == True:
-                if op.param2 in admin or op.param2 in settings['bot'] or op.param2 == GS:
+                if op.param2 in admin or op.param2 in settings['bot']:
                     pass
                 else:
                     gs = cl.getGroup(op.param1)
@@ -60,10 +57,9 @@ def lineBot(op):
             contact1 = cl.getContact(op.param2)
             contact2 = cl.getContact(op.param3)
             group = cl.getGroup(op.param1)
-            GS = group.creator.mid
             print ("[ 13 ] 通知邀請群組: " + str(group.name) + "\n邀請者: " + contact1.displayName + "\n被邀請者" + contact2.displayName)
             if settings["inviteprotect"] == True:
-                if op.param2 in admin or op.param2 in settings['bot'] or op.param2 == GS:
+                if op.param2 in admin or op.param2 in settings['bot']:
                     pass
                 else:
                     cl.cancelGroupInvitation(op.param1,[op.param3])

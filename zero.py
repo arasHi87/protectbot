@@ -8,7 +8,7 @@ import time, random, sys, json, codecs, threading, glob, re, string, os, request
 from gtts import gTTS
 from googletrans import Translator
 botStart = time.time()
-cl = LINE()
+cl = LINE("EsTGiMIUveUMkNSmdcD8.HE6aZ7ktwzuq0mf6SLPCMa.W3AO+ym6fLWKeOSMFH7AIHHzH6f9ePyjGL+Kbr0CDiw=")
 cl.log("Auth Token : " + str(cl.authToken))
 oepoll = OEPoll(cl)
 readOpen = codecs.open("read.json","r","utf-8")
@@ -181,21 +181,10 @@ def lineBot(op):
                 cl.leaveRoom(op.param1)
         if op.type == 1:
             print ("[1]更新配置文件")
-        if settings["qrprotect"] == True:
-            if op.param2 in admin or op.param2 in settings['bot'] or op.param2 == GS:
-                pass
-            else:
-                gs = cl.getGroup(op.param1)
-                gs.preventJoinByTicket = True
-                cl.updateGroup(gs)
-                invsend = 0
-                cl.sendMessage(op.param1,cl.getContact(op.param2).displayName + "你沒有權限開啟網址!")
-                cl.kickoutFromGroup(op.param1,[op.param2])
         if op.type == 13:
             contact1 = cl.getContact(op.param2)
             contact2 = cl.getContact(op.param3)
             group = cl.getGroup(op.param1)
-            GS = group.creator.mid
             print ("[ 13 ] 通知邀請群組: " + str(group.name) + "\n邀請者: " + contact1.displayName + "\n被邀請者" + contact2.displayName)
             if settings["autoJoin"] == True:
                 if op.param2 in admin or op.param2 in settings['bot']:
