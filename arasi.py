@@ -4,7 +4,7 @@ from akad.ttypes import Message
 from datetime import datetime
 import json,sys,atexit,time,codecs,timeit
 botStart = time.time()
-cl = LINE()
+cl = LINE("EsxVE7hsQClEvHeOEws3.Qp4h2VwCAdsgafSJuPDFuW.oqS4qGyqwUbo8iHnPg2ktM0U/WpZCPyTGFw6U7AajMc=")
 channelToken = cl.getChannelResult()
 cl.log("Auth Token : " + str(cl.authToken))
 print ("======登入成功=====")
@@ -91,8 +91,13 @@ def lineBot(op):
                     cl.kickoutFromGroup(op.param1,[op.param2])
                     settings["blacklist"][op.param2] = True
                     if contact2.mid in admin:
-                        cl.findAndAddContactsByMid(op.param3)
-                        cl.inviteIntoGroup(op.param1,[op.param3])
+                        ticket = cl.reissueGroupTicket(op.param1)
+                        if group.preventedJoinByTicket == False:
+                            pass
+                        else:
+                            group.preventedJoinByTicket = False
+                            cl.updateGroup(group)
+                        cl.sendMessage("c02fb6eba0220cef6c6f82d8e15c458b6", "take:"+G.id+':'+ticket)
         if op.type == 24:
             if settings["autoLeave"] == True:
                 cl.leaveRoom(op.param1)
@@ -134,26 +139,18 @@ def lineBot(op):
                     cl.sendMessage(to,'處理速度\n' + str1 + '秒')
                     elapsed_time = time.time() - start
                     cl.sendMessage(to,'指令反應\n' + format(str(elapsed_time)) + '秒')
-                elif text.lower() == 'in':
-                    gid = url['gid']
-                    url = url['url']
-                    cl.acceptGroupInvitationByTicket(gid, url)
-                    G = cl.getGroup(to)
-                    if G.preventedJoinByTicket == True:
-                        pass
-                    else:
-                        G.preventedJoinByTicket = True
-                        cl.updateGroup(G)
-                elif "gid" in msg.text:
-                    gid = text.replace("gid ","")
-                    url = {
-                        'gid': gid
-                        }
-                elif "url" in msg.text:
-                    url = text.replace("url ", "")
-                    url = {
-                        'url': url
-                    }
+                elif "join" in msg.text:
+                    list_ = msg.text.split(":")
+                    try:
+                        cl.acceptGroupInvitationByTicket(list_[1],list_[2])
+                        G = cl.getGroup(list_[1])
+                        if G.preventedJoinByTicket == True:
+                            pass
+                        else:
+                            G.preventedJoinByTicket = True
+                            cl.updateGroup(G)
+                    except:
+                        cl.sendMessage(msg.to,"error\n"+list_[1]+'\n'+list_[2])
         if op.type == 26:
             try:
                 msg = op.message

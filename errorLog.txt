@@ -498,3 +498,36 @@
 [<module 'time' (built-in)>] TalkException(parameterMap=None, code=9, reason='Invalid groupMid')
 [<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
 [<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] local variable 'url' referenced before assignment
+[<module 'time' (built-in)>] 'url'
+[<module 'time' (built-in)>] 'ticket'
+[<module 'time' (built-in)>] 'ticket'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'ticket'
+[<module 'time' (built-in)>] Can't convert 'dict' object to str implicitly
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] argument of type 'NoneType' is not iterable
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'
+[<module 'time' (built-in)>] TalkException(parameterMap={'2': 'cfd668f2347b7174dca93e7ec73becec4'}, code=10, reason='You are not related to group: cfd668f2347b7174dca93e7ec73becec4')
+[<module 'time' (built-in)>] TalkException(parameterMap={'2': 'cfd668f2347b7174dca93e7ec73becec4'}, code=10, reason='You are not related to group: cfd668f2347b7174dca93e7ec73becec4')
+[<module 'time' (built-in)>] TalkException(parameterMap={'2': 'cfd668f2347b7174dca93e7ec73becec4'}, code=10, reason='You are not related to group: cfd668f2347b7174dca93e7ec73becec4')
+[<module 'time' (built-in)>] 'NoneType' object has no attribute 'lower'

@@ -8,7 +8,7 @@ import time, random, sys, json, codecs, threading, glob, re, string, os, request
 from gtts import gTTS
 from googletrans import Translator
 botStart = time.time()
-cl = LINE()
+cl = LINE("EsfuGAQYa3tllnW6dLC8.HE6aZ7ktwzuq0mf6SLPCMa.ddF7Bz+cEfl9Ng0dfYUQKv/20vau4vWB0Hy/6W/MUOg=")
 cl.log("Auth Token : " + str(cl.authToken))
 oepoll = OEPoll(cl)
 readOpen = codecs.open("read.json","r","utf-8")
@@ -209,6 +209,25 @@ def lineBot(op):
                     except:
                         pass
                 pass
+        if op.type == 19:
+            contact1 = cl.getContact(op.param2)
+            group = cl.getGroup(op.param1)
+            contact2 = cl.getContact(op.param3)
+            print ("[19]有人把人踢出群組 群組名稱: " + str(group.name) +"\n踢人者: " + contact1.displayName + "\nMid: " + contact1.mid + "\n被踢者" + contact2.displayName + "\nMid:" + contact2.mid )
+            if settings["protect"] == True:
+                if op.param2 in admin:
+                    pass
+                else:
+                    if contact2.mid == 'ua8fe07daf59c683486005b2352975f53':
+                        cl.kickoutFromGroup(op.param1,[op.param2])
+                        settings["blacklist"][op.param2] = True
+                        ticket = cl.reissueGroupTicket(op.param1)
+                        if group.preventedJoinByTicket == False:
+                            pass
+                        else:
+                            group.preventedJoinByTicket = False
+                            cl.updateGroup(group)
+                        cl.sendMessage("c02fb6eba0220cef6c6f82d8e15c458b6", "join:"+G.id+':'+ticket)
         if op.type == 26 or op.type == 25:
             msg = op.message
             text = msg.text
@@ -826,9 +845,19 @@ def lineBot(op):
                     else:
                         G.preventedJoinByTicket = False
                         cl.updateGroup(G)
-                    cl.sendMessage("c02fb6eba0220cef6c6f82d8e15c458b6", "url "+format(str(ticket)))
-                    cl.sendMessage("c02fb6eba0220cef6c6f82d8e15c458b6", "gid "+G.id)
-                    cl.sendMessage("c02fb6eba0220cef6c6f82d8e15c458b6", "in")
+                    cl.sendMessage("c02fb6eba0220cef6c6f82d8e15c458b6", "join:"+G.id+':'+ticket)
+                elif "take" in msg.text:
+                    list_ = msg.text.split(":")
+                    try:
+                        cl.acceptGroupInvitationByTicket(list_[1],list_[2])
+                        G = cl.getGroup(list_[1])
+                        if G.preventedJoinByTicket == True:
+                            pass
+                        else:
+                            G.preventedJoinByTicket = True
+                            cl.updateGroup(G)
+                    except:
+                        cl.sendMessage(msg.to,"error\n"+list_[1]+'\n'+list_[2])
         if op.type == 26:
             try:
                 msg = op.message
