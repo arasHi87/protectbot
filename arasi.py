@@ -4,7 +4,7 @@ from akad.ttypes import Message
 from datetime import datetime
 import json,sys,atexit,time,codecs,timeit
 botStart = time.time()
-cl = LINE("EsxVE7hsQClEvHeOEws3.Qp4h2VwCAdsgafSJuPDFuW.oqS4qGyqwUbo8iHnPg2ktM0U/WpZCPyTGFw6U7AajMc=")
+cl = LINE()
 channelToken = cl.getChannelResult()
 cl.log("Auth Token : " + str(cl.authToken))
 print ("======登入成功=====")

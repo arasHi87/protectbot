@@ -8,7 +8,7 @@ import time, random, sys, json, codecs, threading, glob, re, string, os, request
 from gtts import gTTS
 from googletrans import Translator
 botStart = time.time()
-cl = LINE("EsfuGAQYa3tllnW6dLC8.HE6aZ7ktwzuq0mf6SLPCMa.ddF7Bz+cEfl9Ng0dfYUQKv/20vau4vWB0Hy/6W/MUOg=")
+cl = LINE()
 cl.log("Auth Token : " + str(cl.authToken))
 oepoll = OEPoll(cl)
 readOpen = codecs.open("read.json","r","utf-8")
