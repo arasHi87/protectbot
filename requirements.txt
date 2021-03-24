@@ -33,7 +33,7 @@ pycurl==7.43.0
 pyOpenSSL==17.5.0
 PyQRCode==1.2.1
 requests==2.18.4
-rsa==3.4.2
+rsa==4.1
 six==1.11.0
 thrift==0.9.3
 uritemplate==3.0.0
